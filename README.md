@@ -1,6 +1,10 @@
 showoff in Docker
 =================
 
+[![Docker Build Status](https://img.shields.io/docker/build/lazyfrosch/showoff.svg)](https://hub.docker.com/r/lazyfrosch/showoff/)
+[![Docker Automated build](https://img.shields.io/docker/automated/lazyfrosch/showoff.svg)](https://hub.docker.com/r/lazyfrosch/showoff/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/lazyfrosch/showoff.svg)](https://hub.docker.com/r/lazyfrosch/showoff/)
+
 This is a Docker container to run [showoff](https://puppetlabs.github.io/showoff/) inside a Docker container.
 
 ## How to use
