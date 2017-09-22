@@ -43,6 +43,10 @@ Listening on 0.0.0.0:9090, CTRL+C to stop
 * Copies USER and sets UID/GID via environment so that showoff shares the same (filesystem) permissions
 * Opens port 9090 to public
 
+## Thanks
+
+Thanks to [@widhalmt](https://github.com/widhalmt) for researching and preparation!
+
 ## License
 
     Copyright (C) 2017 Markus Frosch <markus@lazyfrosch.de>
