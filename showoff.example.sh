@@ -1,5 +1,7 @@
 #!/bin/bash
 
+TAG=latest
+
 if [ -z "$1" ]; then
     set -- serve
 fi
@@ -10,4 +12,4 @@ docker run --rm -it \
     -e UID=`id -u` \
     -e GID=`id -g` \
     -p 9090:9090 \
-    lazyfrosch/showoff showoff "$@"
+    lazyfrosch/showoff:"$TAG" showoff "$@"

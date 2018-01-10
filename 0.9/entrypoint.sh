@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
 set -e
 
-: ${USER:=showoff}
+: ${USER:="showoff"}
 : ${UID:=1000}
 : ${GID:=1000}
-: ${WORKDIR:=/showoff}
+: ${WORKDIR:="/showoff"}
 
 if [ "$1" = showoff ]; then
     if [ `stat -c%u "$WORKDIR"` -eq 0 ]; then
