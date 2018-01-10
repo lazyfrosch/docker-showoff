@@ -1,9 +1,11 @@
 showoff in Docker
 =================
 
-[![Docker Build Status](https://img.shields.io/docker/build/lazyfrosch/showoff.svg)](https://hub.docker.com/r/lazyfrosch/showoff/)
-[![Docker Automated build](https://img.shields.io/docker/automated/lazyfrosch/showoff.svg)](https://hub.docker.com/r/lazyfrosch/showoff/)
+<!--[![Docker Automated build](https://img.shields.io/docker/automated/lazyfrosch/showoff.svg)](https://hub.docker.com/r/lazyfrosch/showoff/)-->
+
+[![](https://images.microbadger.com/badges/version/lazyfrosch/showoff.svg)](https://microbadger.com/images/lazyfrosch/showoff "Get your own version badge on microbadger.com")
 [![Docker Pulls](https://img.shields.io/docker/pulls/lazyfrosch/showoff.svg)](https://hub.docker.com/r/lazyfrosch/showoff/)
+[![](https://images.microbadger.com/badges/image/lazyfrosch/showoff.svg)](https://microbadger.com/images/lazyfrosch/showoff "Get your own image badge on microbadger.com")
 
 This is a Docker container to run [showoff](https://puppetlabs.github.io/showoff/) inside a Docker container.
 
