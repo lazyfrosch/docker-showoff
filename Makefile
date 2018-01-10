@@ -1,5 +1,5 @@
-TAGS := 0.9
-LATEST := 0.9
+TAGS := 0.19 0.9
+LATEST := 0.19
 IMAGE := lazyfrosch/showoff
 
 .PHONY: all push $(TAGS)
@@ -12,5 +12,6 @@ $(TAGS):
 
 push:
 	for tag in $(TAGS); do $(MAKE) -C $$tag push; done
+	docker push $(IMAGE):latest
 
 all: build push
